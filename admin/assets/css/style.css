@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.side-navbar {
+  width: 240px;
+  height: 100%;
+  position: fixed;
+  margin-left: -250px;
+  background: #6441A5;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2a0845, #6441A5);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  transition: 1s;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #ffffff26;
+
+}
+
+.my-container {
+  transition: 1s;
+  /* width: 70vw; */
+
+
+}
+
+.active-nav {
+  margin-left: 0;
+}
+
+/* for main section */
+.active-cont {
+  margin-left: 240px;
+  transition: all 1s;
+}
+
+#menu-btn {
+  background-color: #100901;
+  color: #fff;
+  margin-left: -90px;
+  margin-top: 15px;
+  position: fixed;
+  z-index: 99999;
+
+  transition: all 1s;
+}
+
+.my-container input {
+  /* border-radius: 0.5rem; */
+  padding: 4px 20px;
+  transition: all 1s;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: 600;
+  color: #100901;
+  margin: 10px;
+
+  border-radius: 20px;
+  transition: all 0.6s;
+
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a :hover {
+  text-decoration: none;
+  color: #0d0d13 !important;
+
+}
+
+.nav-link:hover {
+  font-size: 21px;
+  color: #0d0d13 !important;
+  background-color: #fffdfd;
+  transition: all 1s;
+
+}
+
+
+.dataTables_wrapper .dt-buttons {
+ margin-right: 5px; /* Adjust the spacing as needed */
+ margin: 5px;
+}
+
+.dataTables_wrapper .dt-buttons .btn {
+  margin-right: 5px;  /* Add space between buttons  */
+  background-color: rgba(4, 60, 95, 0.765); 
+}
